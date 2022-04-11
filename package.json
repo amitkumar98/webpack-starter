@@ -1,0 +1,26 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "webpack starter codebase",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitkumar98/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack-starter"
+  ],
+  "author": "Amit Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitkumar98/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/amitkumar98/webpack-starter#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
