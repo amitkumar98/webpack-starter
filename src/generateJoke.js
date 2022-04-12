@@ -1,5 +1,13 @@
 function generateJoke() {
-  return "Why did the chicken cross the road? To get to the other side.";
+  fetch("https://icanhazdadjoke.com/", {
+    headers: {
+      Accept: "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      document.getElementById("joke").innerHTML = data.joke;
+    });
 }
 
 export default generateJoke;
